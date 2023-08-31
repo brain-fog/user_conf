@@ -31,7 +31,7 @@ if [[ `uname` == "Linux" ]]; then
   export PS1="\[${lgreen}\]\h \[${lcyan}\][\A - !\!] \[${lgreen}\]\W \$ \[${normal}\]"
 else
 	alias lsl='ls -FrtlhG'
-  export PS1="\[${lblue}\]\h \[${lcyan}\][\A - !\!] \[${lblue}\]\W \$ \[${normal}\]"
+  export PS1="\[${yellow}\]\h \[${lcyan}\][\A - !\!] \[${yellow}\]\W \$ \[${normal}\]"
 fi
 
 # vim: ft=sh
